@@ -30,5 +30,19 @@ Si al iniciar la aplicación aparece un error como:
 > "No se pudo cargar el archivo Excel..."
 
 Esto significa que el archivo `machines.xlsx` no está en la ruta esperada. 
-ve a save y el archivo que se llama ruta.py ebrelo en un block de notas y especifica la ruta donde aparece subrayado,
+ve a save y el archivo que se llama ruta.py abrelo en un bloc de notas y especifica la ruta donde aparece subrayado
+
+
+# ######################   Modificar esta ruta a la tuya de machines   #######################
+**excel_path = os.path.expanduser("C:/Users/leona/OneDrive/Escritorio/maquinas/machines.xlsx")**
+
+##############################################################################################
+####  ########################################################################################
+####  ##############################################################  ####  ##################
+####  ####### ##### #### ###### #####          #####            ####  ####  ##################
+####  ######## ## ###### ###### ##### ######## ##### ###############  ##  ####################
+####  ######### ######## ------ #####          ##### ###############  ##  ####################
+####         ## ######## ###### ##### ######## #####            ####  ###  ###################
+##############################################################################################
+############################################################################################
 
