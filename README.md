@@ -1,33 +1,32 @@
 ## Cómo usar en windows:
 
-1. **Descargar el repositorio como archivo ZIP**  
-   Haz clic en el botón verde **"Code"** y selecciona **"Download ZIP"**.
+# 🧠 HTB Machine Finder GUI
 
-2. **Descomprimir el archivo ZIP**  
-   Extrae el contenido del archivo ZIP en una ubicación de tu preferencia.
-
-3. **Abrir la carpeta `save`**  
-   Dentro de la carpeta descomprimida, navega hasta la subcarpeta llamada `save`.
-
-4. **Ejecutar el archivo `maquinas.exe`**  
-   Haz doble clic en `maquinas.exe` para iniciar la aplicación.
+Una interfaz gráfica construida con `tkinter` para buscar y filtrar máquinas de Hack The Box desde un archivo Excel. Ideal para practicar antes de un examen de certificación y reforzar tus habilidades en pentesting.
 
 ---
 
-## Características de la aplicación
+## ✅ Cómo usar en Windows
 
-- **Búsqueda rápida** por nombre de la máquina.
-- **Filtrado por sistema operativo**: Windows o Linux.
-- **Clasificación por tipo de examen**:
-  - eJPT
-  - OSCP
-  - Hack The Box (general)
-- **Dificultad de la máquina**: Desde *Fácil* hasta *Extrema*.
-- **Metodologías usadas**:  
-  En el desplegable lateral derecho puedes ver las técnicas empleadas en la resolución de cada máquina.
-- **Acceso directo al video de YouTube**:  
-  Cada máquina incluye un enlace directo al video explicativo en YouTube.
+### 1. **Descargar el repositorio como archivo ZIP**
+Haz clic en el botón verde **"Code"** y selecciona **"Download ZIP"**.
+
+### 2. **Descomprimir el archivo ZIP**
+Extrae el contenido en una carpeta de tu preferencia (crea un archivo nuevo llamado machines).
+
+### 3. **copia todo el contenido em machines **
+
+
+### 4. **Ejecutar el archivo `maquinas.exe`**
+Haz doble clic en `maquinas.exe` para iniciar la aplicación.
 
 ---
 
-¡Ideal para practicar antes de un examen de certificación y para reforzar tus habilidades en pentesting!
+## ⚠️ Importante: Error de ruta del archivo Excel
+
+Si al iniciar la aplicación aparece un error como:
+
+> "No se pudo cargar el archivo Excel..."
+
+Esto significa que el archivo `machines.xlsx` no está en la ruta esperada. Por defecto, la ruta es:
+
