@@ -14,7 +14,8 @@ Haz clic en el botón verde **"Code"** y selecciona **"Download ZIP"**.
 ### 2. **Descomprimir el archivo ZIP**
 Extrae el contenido en una carpeta de tu preferencia (crea un archivo nuevo llamado machines).
 
-### 3. **copia todo el contenido em machines **
+### 3. **copia todo el contenido en machines **
+
 
 
 ### 4. **Ejecutar el archivo `maquinas.exe`**
